@@ -1,3 +1,9 @@
 # Immersive Garden Guidelines
 
- - [Git](git.md)
+- [Git](git.md)
+
+## TODO
+- [x] Git
+- [ ] JS
+- [ ] CSS
+- [ ] Site checklist
