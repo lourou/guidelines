@@ -1,6 +1,7 @@
 # Immersive Garden Guidelines
 
-- [Git](git.md)
+- [Git](git/)
+- [JS](js/)
 
 ## TODO
 - [x] Git
