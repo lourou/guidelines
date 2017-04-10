@@ -186,7 +186,7 @@
 |[lines-around-comment](http://eslint.org/docs/rules/lines-around-comment)| | | |√| |
 |[lines-around-directive](http://eslint.org/docs/rules/lines-around-directive)| | | |√| |
 |[max-depth](http://eslint.org/docs/rules/max-depth)| | | |√| |
-|[max-len](http://eslint.org/docs/rules/max-len)| |√| | |{"code": 100}|
+|[max-len](http://eslint.org/docs/rules/max-len)| | |√| | |
 |[max-lines](http://eslint.org/docs/rules/max-lines)| | | |√| |
 |[max-nested-callbacks](http://eslint.org/docs/rules/max-nested-callbacks)| | | |√| |
 |[max-params](http://eslint.org/docs/rules/max-params)| | | |√| |
