@@ -5,6 +5,12 @@
 - [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
 - [https://github.com/google/eslint-config-google](https://github.com/google/eslint-config-google)
 
+### Instructions
+
+- Update `.eslintc.js` file
+- Open terminal in `./builder/` folder
+- Launch `node index.js`
+
 ### Rules
 
 |Name|Off|Warning|Error|Parameters*|
