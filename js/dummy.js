@@ -2,8 +2,15 @@ class Toto
 {
     constructor()
     {
-        const test = 'toto'
-        console.log(test)
+        const test = 'toto',
+        	haha = 'ohoh'
+        	
+        console.log(test);;
+
+        if(toto == haha)
+        {
+            console.log('ok')
+        }
 
         for(let i = 0; i < 10; i++)
         {

@@ -23,7 +23,7 @@ module.exports = {
         'no-undef': 2,
         'array-bracket-spacing': [1, 'never'],
         'brace-style': [1, 'allman'],
-        'camelcase': [1, 'always'],
+        'camelcase': [1, { properties: 'always' }],
         'comma-dangle': [1, 'never'],
         'comma-style': [1, 'last'],
         'func-style': [1, 'expression'],
