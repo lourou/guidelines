@@ -2,9 +2,11 @@
 
 - [Git](git/)
 - [JS](js/)
+- [Editor](editor/)
 
 ## TODO
 - [x] Git
-- [ ] JS
+- [x] JS
+- [x] Editor
 - [ ] CSS
 - [ ] Site checklist

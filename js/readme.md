@@ -1,3 +1,5 @@
+# JS Guidelines
+
 ### References
 
 - [http://eslint.org/docs/rules/](http://eslint.org/docs/rules/)
