@@ -54,7 +54,7 @@ module.exports = {
         'space-in-parens': [1, 'never'],
         'space-infix-ops': 1,
         'spaced-comment': [1, 'always'],
-        'arrow-body-style': [1, 'as-needed'],
+        'arrow-body-style': 0,
         'arrow-parens': [1, 'as-needed'],
         'arrow-spacing': [1, { before: true, 'after': true }],
         'no-confusing-arrow': 0,
