@@ -29,7 +29,7 @@
 |[no-undef](http://eslint.org/docs/rules/no-undef)| | |√||
 |[array-bracket-spacing](http://eslint.org/docs/rules/array-bracket-spacing)| |√| |"never"|
 |[brace-style](http://eslint.org/docs/rules/brace-style)| |√| |"allman"|
-|[camelcase](http://eslint.org/docs/rules/camelcase)| |√| |"always"|
+|[camelcase](http://eslint.org/docs/rules/camelcase)| |√| |\{"properties":"always"}|
 |[comma-dangle](http://eslint.org/docs/rules/comma-dangle)| |√| |"never"|
 |[comma-style](http://eslint.org/docs/rules/comma-style)| |√| |"last"|
 |[func-style](http://eslint.org/docs/rules/func-style)| |√| |"expression"|
@@ -60,7 +60,7 @@
 |[space-in-parens](http://eslint.org/docs/rules/space-in-parens)| |√| |"never"|
 |[space-infix-ops](http://eslint.org/docs/rules/space-infix-ops)| |√| ||
 |[spaced-comment](http://eslint.org/docs/rules/spaced-comment)| |√| |"always"|
-|[arrow-body-style](http://eslint.org/docs/rules/arrow-body-style)| |√| |"as-needed"|
+|[arrow-body-style](http://eslint.org/docs/rules/arrow-body-style)|√| | ||
 |[arrow-parens](http://eslint.org/docs/rules/arrow-parens)| |√| |"as-needed"|
 |[arrow-spacing](http://eslint.org/docs/rules/arrow-spacing)| |√| |\{"before":true,"after":true}|
 |[no-confusing-arrow](http://eslint.org/docs/rules/no-confusing-arrow)|√| | ||
