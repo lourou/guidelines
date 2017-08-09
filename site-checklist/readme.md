@@ -5,7 +5,7 @@
 ##### Contents
 
 - [ ] No typo
-- [ ] No "lorem ipsum"
+- [ ] No `lorem ipsum
 - [ ] Emails are working
 - [ ] Assets rights
 - [ ] 404 page
@@ -63,7 +63,7 @@
 - [ ] HTTPS redirection
 - [ ] Gzip
 - [ ] CDN
-- [ ] "www" redirection
+- [ ] `www` redirection
 - [ ] Overload ready
 - [ ] Automatic backup (DB and files)
 
