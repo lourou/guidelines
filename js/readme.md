@@ -35,7 +35,7 @@
 |[func-style](http://eslint.org/docs/rules/func-style)| |√| |"expression"|
 |[id-length](http://eslint.org/docs/rules/id-length)|√| | ||
 |[indent](http://eslint.org/docs/rules/indent)| |√| |4|
-|[keyword-spacing](http://eslint.org/docs/rules/keyword-spacing)| |√| |\{"after":false,"before":true,"overrides":{"from":{"after":true},"return":{"after":true}}}|
+|[keyword-spacing](http://eslint.org/docs/rules/keyword-spacing)| |√| |\{"after":false,"before":true,"overrides":{"from":{"after":true},"return":{"after":true},"*":{"after":true}}}|
 |[max-len](http://eslint.org/docs/rules/max-len)|√| | ||
 |[new-cap](http://eslint.org/docs/rules/new-cap)| |√| |\{"newIsCap":true,"newIsCapExceptions":[],"capIsNew":false,"capIsNewExceptions":["Immutable.Map","Immutable.Set","Immutable.List"]}|
 |[no-array-constructor](http://eslint.org/docs/rules/no-array-constructor)| |√| ||
