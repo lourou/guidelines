@@ -29,7 +29,7 @@ module.exports = {
         'func-style': [1, 'expression'],
         'id-length': 0,
         'indent': [1, 4],
-        'keyword-spacing': [1, { after: false, before: true, overrides: { from: { after: true }, return: { after: true }, '*': { after: true } } }],
+        'keyword-spacing': [1, { after: false, before: true, overrides: { from: { after: true }, return: { after: true }, import: { after: true } } }],
         'max-len': 0,
         'new-cap': [1, { newIsCap: true, newIsCapExceptions: [], capIsNew: false, capIsNewExceptions: ['Immutable.Map', 'Immutable.Set', 'Immutable.List'] }],
         'no-array-constructor': 1,
