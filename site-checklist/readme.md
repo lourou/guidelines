@@ -5,7 +5,8 @@
 ##### Contents
 
 - [ ] No typo
-- [ ] No `lorem ipsum
+- [ ] No `lorem ipsum`
+- [ ] No useless `console.log()`
 - [ ] Emails are working
 - [ ] Assets rights
 - [ ] 404 page
