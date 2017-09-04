@@ -39,7 +39,7 @@ module.exports = {
         'no-new-object': 1,
         'no-plusplus': 0,
         'no-restricted-syntax': 0,
-        'no-trailing-spaces': 0,
+        'no-trailing-spaces': 1,
         'no-underscore-dangle': 0,
         'no-unneeded-ternary': 1,
         'no-whitespace-before-property': 1,

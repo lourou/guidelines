@@ -45,7 +45,7 @@
 |[no-new-object](http://eslint.org/docs/rules/no-new-object)| |√| ||
 |[no-plusplus](http://eslint.org/docs/rules/no-plusplus)|√| | ||
 |[no-restricted-syntax](http://eslint.org/docs/rules/no-restricted-syntax)|√| | ||
-|[no-trailing-spaces](http://eslint.org/docs/rules/no-trailing-spaces)|√| | ||
+|[no-trailing-spaces](http://eslint.org/docs/rules/no-trailing-spaces)| |√| ||
 |[no-underscore-dangle](http://eslint.org/docs/rules/no-underscore-dangle)|√| | ||
 |[no-unneeded-ternary](http://eslint.org/docs/rules/no-unneeded-ternary)| |√| ||
 |[no-whitespace-before-property](http://eslint.org/docs/rules/no-whitespace-before-property)| |√| ||
