@@ -9,7 +9,7 @@ class Toto
 
         if(toto == haha)
         {
-            console.log('ok')
+            console.log('ok')  
         }
 
         for(let i = 0; i < 10; i++)

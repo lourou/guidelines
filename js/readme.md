@@ -47,7 +47,7 @@
 |[func-style](http://eslint.org/docs/rules/func-style)| |√| |"expression"|
 |[id-length](http://eslint.org/docs/rules/id-length)|√| | ||
 |[indent](http://eslint.org/docs/rules/indent)| |√| |4|
-|[keyword-spacing](http://eslint.org/docs/rules/keyword-spacing)| |√| |\{"after":true,"before":true}|
+|[keyword-spacing](http://eslint.org/docs/rules/keyword-spacing)| |√| |\{"after":false,"before":true,"overrides":{"from":{"after":true},"return":{"after":true},"import":{"after":true}}}|
 |[max-len](http://eslint.org/docs/rules/max-len)|√| | ||
 |[new-cap](http://eslint.org/docs/rules/new-cap)| |√| |\{"newIsCap":true,"newIsCapExceptions":[],"capIsNew":false,"capIsNewExceptions":["Immutable.Map","Immutable.Set","Immutable.List"]}|
 |[no-array-constructor](http://eslint.org/docs/rules/no-array-constructor)| |√| ||
@@ -57,8 +57,8 @@
 |[no-new-object](http://eslint.org/docs/rules/no-new-object)| |√| ||
 |[no-plusplus](http://eslint.org/docs/rules/no-plusplus)|√| | ||
 |[no-restricted-syntax](http://eslint.org/docs/rules/no-restricted-syntax)|√| | ||
-|[no-trailing-spaces](http://eslint.org/docs/rules/no-trailing-spaces)|√| | ||
-|[no-underscore-dangle](http://eslint.org/docs/rules/no-underscore-dangle)| |√| |\{"allowAfterThis":false}|
+|[no-trailing-spaces](http://eslint.org/docs/rules/no-trailing-spaces)| |√| ||
+|[no-underscore-dangle](http://eslint.org/docs/rules/no-underscore-dangle)|√| | ||
 |[no-unneeded-ternary](http://eslint.org/docs/rules/no-unneeded-ternary)| |√| ||
 |[no-whitespace-before-property](http://eslint.org/docs/rules/no-whitespace-before-property)| |√| ||
 |[object-curly-spacing](http://eslint.org/docs/rules/object-curly-spacing)| |√| |"always"|
@@ -73,7 +73,7 @@
 |[space-infix-ops](http://eslint.org/docs/rules/space-infix-ops)| |√| ||
 |[spaced-comment](http://eslint.org/docs/rules/spaced-comment)| |√| |"always"|
 |[arrow-body-style](http://eslint.org/docs/rules/arrow-body-style)|√| | ||
-|[arrow-parens](http://eslint.org/docs/rules/arrow-parens)| |√| |"as-needed"|
+|[arrow-parens](http://eslint.org/docs/rules/arrow-parens)| |√| |"always"|
 |[arrow-spacing](http://eslint.org/docs/rules/arrow-spacing)| |√| |\{"before":true,"after":true}|
 |[no-confusing-arrow](http://eslint.org/docs/rules/no-confusing-arrow)|√| | ||
 |[no-dupe-class-members](http://eslint.org/docs/rules/no-dupe-class-members)| |√| ||

@@ -29,7 +29,7 @@ module.exports = {
         'func-style': [1, 'expression'],
         'id-length': 0,
         'indent': [1, 4],
-        'keyword-spacing': [1, { after: true, before: true }],
+        'keyword-spacing': [1, { after: false, before: true, overrides: { from: { after: true }, return: { after: true }, import: { after: true } } }],
         'max-len': 0,
         'new-cap': [1, { newIsCap: true, newIsCapExceptions: [], capIsNew: false, capIsNewExceptions: ['Immutable.Map', 'Immutable.Set', 'Immutable.List'] }],
         'no-array-constructor': 1,
@@ -39,8 +39,8 @@ module.exports = {
         'no-new-object': 1,
         'no-plusplus': 0,
         'no-restricted-syntax': 0,
-        'no-trailing-spaces': 0,
-        'no-underscore-dangle': [1, { allowAfterThis: false }],
+        'no-trailing-spaces': 1,
+        'no-underscore-dangle': 0,
         'no-unneeded-ternary': 1,
         'no-whitespace-before-property': 1,
         'object-curly-spacing': [1, 'always'],
@@ -55,7 +55,7 @@ module.exports = {
         'space-infix-ops': 1,
         'spaced-comment': [1, 'always'],
         'arrow-body-style': 0,
-        'arrow-parens': [1, 'as-needed'],
+        'arrow-parens': [1, 'always'],
         'arrow-spacing': [1, { before: true, 'after': true }],
         'no-confusing-arrow': 0,
         'no-dupe-class-members': 1,
@@ -69,4 +69,4 @@ module.exports = {
         'prefer-template': 0,
         'template-curly-spacing': [1, 'never']
     }
-};
+}
