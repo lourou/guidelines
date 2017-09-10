@@ -11,6 +11,7 @@ module.exports = {
     },
     'rules':
     {
+        'no-unused-vars': 1,
         'no-console': 0,
         'dot-notation': 1,
         'eqeqeq': 1,

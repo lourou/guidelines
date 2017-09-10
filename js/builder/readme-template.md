@@ -15,13 +15,17 @@
 
 ### Add support to Node.js
 
-- Install [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node) using `npm install --save-dev eslint-plugin-node`
+- Install [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node) using `npm install --save-dev eslint eslint-plugin-node`
 - Update .eslintrc.js
 
 ```
 {
     'plugins': ['node'],
     'extends': ['eslint:recommended', 'plugin:node/recommended'],
+    'rules':
+    {
+        'node/no-unsupported-features': 0,
+    }
 }
 ```
 
