@@ -4,13 +4,14 @@ module.exports = {
         'browser': true,
         'es6': true
     },
-    'extends': 'eslint:recommended',
+    'extends': ['eslint:recommended'],
     'parserOptions':
     {
         'sourceType': 'module'
     },
     'rules':
     {
+        'no-unused-vars': 1,
         'no-console': 0,
         'dot-notation': 1,
         'eqeqeq': 1,
