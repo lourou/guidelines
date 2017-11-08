@@ -15,13 +15,17 @@
 
 ### Add support to Node.js
 
-- Install [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node) using `npm install --save-dev eslint-plugin-node`
+- Install [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node) using `npm install --save-dev eslint eslint-plugin-node`
 - Update .eslintrc.js
 
 ```
 {
     'plugins': ['node'],
     'extends': ['eslint:recommended', 'plugin:node/recommended'],
+    'rules':
+    {
+        'node/no-unsupported-features': 0,
+    }
 }
 ```
 
@@ -29,6 +33,7 @@
 
 |Name|Off|Warning|Error|Parameters*|
 |:---|:---:|:---:|:---:|:---:|
+|[no-unused-vars](http://eslint.org/docs/rules/no-unused-vars)| |√| ||
 |[no-console](http://eslint.org/docs/rules/no-console)|√| | ||
 |[dot-notation](http://eslint.org/docs/rules/dot-notation)| |√| ||
 |[eqeqeq](http://eslint.org/docs/rules/eqeqeq)| |√| ||
@@ -46,8 +51,8 @@
 |[comma-style](http://eslint.org/docs/rules/comma-style)| |√| |"last"|
 |[func-style](http://eslint.org/docs/rules/func-style)| |√| |"expression"|
 |[id-length](http://eslint.org/docs/rules/id-length)|√| | ||
-|[indent](http://eslint.org/docs/rules/indent)| |√| |4|
-|[keyword-spacing](http://eslint.org/docs/rules/keyword-spacing)| |√| |\{"after":false,"before":true,"overrides":{"from":{"after":true},"return":{"after":true},"import":{"after":true}}}|
+|[indent](http://eslint.org/docs/rules/indent)| |√| |4,\{"SwitchCase":1}|
+|[keyword-spacing](http://eslint.org/docs/rules/keyword-spacing)| |√| |\{"after":false,"before":true,"overrides":{"from":{"after":true},"return":{"after":true},"import":{"after":true},"case":{"after":true}}}|
 |[max-len](http://eslint.org/docs/rules/max-len)|√| | ||
 |[new-cap](http://eslint.org/docs/rules/new-cap)| |√| |\{"newIsCap":true,"newIsCapExceptions":[],"capIsNew":false,"capIsNewExceptions":["Immutable.Map","Immutable.Set","Immutable.List"]}|
 |[no-array-constructor](http://eslint.org/docs/rules/no-array-constructor)| |√| ||
@@ -193,7 +198,6 @@
 - [no-shadow-restricted-names](http://eslint.org/docs/rules/no-shadow-restricted-names)
 - [no-undef-init](http://eslint.org/docs/rules/no-undef-init)
 - [no-undefined](http://eslint.org/docs/rules/no-undefined)
-- [no-unused-vars](http://eslint.org/docs/rules/no-unused-vars)
 - [no-use-before-define](http://eslint.org/docs/rules/no-use-before-define)
 - [callback-return](http://eslint.org/docs/rules/callback-return)
 - [global-require](http://eslint.org/docs/rules/global-require)
