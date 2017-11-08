@@ -62,7 +62,7 @@ module.exports = {
         'no-duplicate-imports': 0,
         'no-useless-constructor': 1,
         'no-var': 1,
-        'object-shorthand': 1,
+        'object-shorthand': 0,
         'prefer-const': 1,
         'prefer-rest-params': 1,
         'prefer-spread': 1,

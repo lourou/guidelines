@@ -68,7 +68,7 @@
 |[no-duplicate-imports](http://eslint.org/docs/rules/no-duplicate-imports)|√| | ||
 |[no-useless-constructor](http://eslint.org/docs/rules/no-useless-constructor)| |√| ||
 |[no-var](http://eslint.org/docs/rules/no-var)| |√| ||
-|[object-shorthand](http://eslint.org/docs/rules/object-shorthand)| |√| ||
+|[object-shorthand](http://eslint.org/docs/rules/object-shorthand)|√| | ||
 |[prefer-const](http://eslint.org/docs/rules/prefer-const)| |√| ||
 |[prefer-rest-params](http://eslint.org/docs/rules/prefer-rest-params)| |√| ||
 |[prefer-spread](http://eslint.org/docs/rules/prefer-spread)| |√| ||
