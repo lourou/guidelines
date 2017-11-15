@@ -48,7 +48,7 @@ module.exports = {
         'one-var': [1, 'never'],
         'padded-blocks': [1, 'never'],
         'quote-props': [1, 'as-needed'],
-        'quotes': 0,
+        'quotes': [1, 'single'],
         'semi': [1, 'never'],
         'space-before-blocks': [1, 'always'],
         'space-before-function-paren': [1, { anonymous: 'never', named: 'never', asyncArrow: 'never' }],

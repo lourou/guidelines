@@ -70,7 +70,7 @@
 |[one-var](http://eslint.org/docs/rules/one-var)| |√| |"never"|
 |[padded-blocks](http://eslint.org/docs/rules/padded-blocks)| |√| |"never"|
 |[quote-props](http://eslint.org/docs/rules/quote-props)| |√| |"as-needed"|
-|[quotes](http://eslint.org/docs/rules/quotes)|√| | ||
+|[quotes](http://eslint.org/docs/rules/quotes)| |√| |"single"|
 |[semi](http://eslint.org/docs/rules/semi)| |√| |"never"|
 |[space-before-blocks](http://eslint.org/docs/rules/space-before-blocks)| |√| |"always"|
 |[space-before-function-paren](http://eslint.org/docs/rules/space-before-function-paren)| |√| |\{"anonymous":"never","named":"never","asyncArrow":"never"}|
